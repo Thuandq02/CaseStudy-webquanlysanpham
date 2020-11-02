@@ -1,0 +1,25 @@
+form{
+    background: hotpink;
+    border: 1px solid black;
+    float: left;
+}
+table{
+    background: hotpink;
+}
+body{
+    background-image: url("https://cellphones.com.vn/sforum/wp-content/uploads/2019/05/Honor-20-Pro-lo-anh-quang-cao-1.jpg");
+}
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    float: right;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+th , td {
+    text-align: center;
+}

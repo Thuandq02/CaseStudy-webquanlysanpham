@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUẢN LÝ SẢN PHẨM</title>
+    <link rel="stylesheet" href="css/product.css">
+
+</head>
+<body>
+<form id="form-add" class="form-group">
+    <fieldset style="border: 1px solid black;width: 300px; height: 550px">
+        <legend style="color: black">
+            <h2>ADD PRODUCT</h2>
+        </legend>
+        <div>
+            Product Name:
+        </div>
+        <div>
+            <input class="form-control" id="add-name" placeholder="Product Name">
+        </div>
+        <div>
+            Operating system:
+        </div>
+        <div>
+            <th><input class="form-control" id="add-system" placeholder="Operating system"></th>
+        </div>
+        <div>
+            Product Number:
+        </div>
+        <div>
+            <input class="form-control" id="add-number" placeholder="Product Number">
+        </div>
+        <div>
+            Price:
+        </div>
+        <div>
+            <input class="form-control" id="add-price" placeholder="Price">
+        </div>
+        <div>
+            Img:
+        </div>
+        <div>
+            <input class="form-control" id="add-img" placeholder="Img">
+        </div>
+        <div>
+            <button type="button" class="btn btn-success" onclick="addProduct()">ADD</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <tr>
+                <td><img src="https://media.giphy.com/media/kIFRq2hKXOVCLlyWu2/giphy.gif" alt="width: 200px; height: 100px" style="width: 300px; height: 200px"></td>
+            </tr>
+        </div>
+    </fieldset>
+</form>
+<form id="form-edit" class="form-group" style="display: none; width: 1000px">
+    <fieldset>
+        <legend>EDIT PRODUCT</legend>
+        <input class="form-control" id="edit-name" placeholder="Product Name">
+        <input class="form-control" id="edit-system" placeholder="Operating system">
+        <input class="form-control" id="edit-number" placeholder="Product Number">
+        <input class="form-control" id="edit-price" placeholder="Price">
+        <input class="form-control" id="edit-img" placeholder="Img">
+        <button type="button" class="btn btn-success" onclick="editProduct()">Update</button>
+    </fieldset>
+</form>
+<div id="product-manage"></div>
+
+<script src="js/data.js"></script>
+<script src="js/product.js"></script>
+<script src="js/product-manage.js"></script>
+<script src="js/ProductManage.js"></script>
+
+</body>
+</html>
